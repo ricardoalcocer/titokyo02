@@ -1,0 +1,37 @@
+<Alloy>
+	<Window class="container">
+		<View id="appMenu">
+			<View id="menuHeader">
+				<Label id="menuTitle">MENU</Label>
+			</View>
+			<TableView id="menuList">
+				<TableViewRow id="menuListRow">
+					<Label id="menuListRowLabel">Option 1</Label>
+				</TableViewRow>
+				<TableViewRow id="menuListRow">
+					<Label id="menuListRowLabel">Option 2</Label>
+				</TableViewRow>
+				<TableViewRow id="menuListRow">
+					<Label id="menuListRowLabel">Option 3</Label>
+				</TableViewRow>
+			</TableView>
+		</View>
+		<View id="appMain">
+			<View id="mainHeader" onClick="showhidemenu"></View>
+			<TableView id="mainList">
+				<TableViewRow id="mainListRow">
+					<View id="mainListRowContainer">
+						<Label id="mainListRowLine1">Some sample content goes here</Label>
+						<Label id="mainListRowLine2">12/12/2012</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="mainListRow">
+					<View id="mainListRowContainer">
+						<Label id="mainListRowLine1">Some sample content goes here</Label>
+						<Label id="mainListRowLine2">12/12/2012</Label>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>
